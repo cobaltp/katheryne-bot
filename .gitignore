@@ -1,0 +1,10 @@
+# build
+node_modules
+dist
+
+# environment
+.env
+
+# user defined
+_*
+TODO

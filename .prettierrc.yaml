@@ -1,0 +1,15 @@
+---
+overrides:
+  - files: "src/**/*.{js,jsx,ts,tsx}"
+    options:
+      tabWidth: 2
+      printWidth: 80
+      trailingComma: all
+      semi: false
+      singleQuote: true
+      jsxSingleQuote: false
+      htmlWhitespaceSensitivity: ignore
+      importOrder: ["<THIRD_PARTY_MODULES>", "^[./*]"]
+plugins:
+  - "@trivago/prettier-plugin-sort-imports"
+pluginSearchDirs: false
